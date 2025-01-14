@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+.header-section{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: -3px;
+}
+
+.hero-contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #F85606;
+}
+
+
+.hero-1{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: rgb(223, 19, 234);
+    margin-left: 50px;
+}
+
+.button {
+    background-color: #F85606 !important;
+    border: none;
+    margin-left: 180px !important;
+    padding: 15px 30px;
+    font-size: 30px !important;
+    border-radius: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+
+}
+
+.button:hover{
+    background-color :green !important;
+    color: white !important;
+
+    
+}
+
+.features-section{
+    padding: 60px 0px;
+}
+
+.features-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.feature-card{
+    padding: 30px;
+    background-color: rgb(207, 195, 195);
+    border-radius: 15px;
+    box-shadow: 10px 18px 8px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: transform 0.5s ease;
+}
+
+.feature-card:hover{
+    transform: translate(10px)
+}
+
+.feature-card img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.feature-card h5{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.feature-card p{
+    color: #A52A2A;
+}
+
+.Cheackout-form {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #E9DCB1;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-section{
+    padding: 60px 0;
+}
+
+.checkout-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.footer-part {
+    background-color: black;
+    padding: 60px 0;
+}
+
+.footer-part img {
+    height: 150px;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    color: white;
+
+}
+
+.contact b {
+
+    display: block;
+}
+
+.social b {
+    display: block;
+}
+
+.footer-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    color: ;
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icon :hover {
+    color: red;
+
+}
+
+.social-icon-1 {
+    color: ;
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icon-1 :hover {
+    color: purple;
+
+}
+
+.social-icon-2 {
+    color: ;
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icon-2 :hover {
+    color: #0863F7;
+
+}
+
+.social-icon-4 {
+    color: ;
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icon-4 :hover {
+    color: #0170AD;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.copyright {
+    margin-left: 30px !important;
+    font-weight: 600;
+}
+
+.link {
+    margin-left: 40px;
+}
+
+.link-1 {
+    font-weight: 600;
+    margin-top: -30px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1011px) {
+    .hero {
+        font-size: 50px !important;
+
+    }
+}
+@media screen and (max-width: 789px) {
+    .hero {
+        font-size: 40px !important;
+
+    }
+}
+@media screen and (max-width: 632px) {
+    .hero {
+        font-size: 35px !important;
+
+    }
+}
+@media screen and (max-width: 522px) {
+    .hero {
+        font-size: 30px !important;
+        margin-top: 10px;
+
+    }
+}
+@media screen and (max-width: 342px) {
+    .hero {
+        font-size: 30px !important;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 1011px) {
+    .hero-1 {
+       margin-left: -5px !important;
+
+    }
+}
+@media screen and (max-width: 830px) {
+    .hero-1 {
+        font-size: 20px;
+       margin-left: -5px !important;
+
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .hero-1 {
+        font-size: 17px;
+       margin-left: -5px !important;
+
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .hero-1 {
+        font-size: 18px;
+       margin-left: -5px !important;
+
+    }
+}
+
+@media screen and (max-width: 1011px) {
+    .button {
+        font-size: 20px !important;
+     
+
+    }
+}
+@media screen and (max-width: 585px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 90px !important;
+     
+
+    }
+}
+@media screen and (max-width: 552px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 60px !important;
+     
+
+    }
+}
+@media screen and (max-width: 412px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 10px !important;
+        margin-top: -40px;
+     
+
+    }
+}
+@media screen and (max-width: 366px) {
+    .button {
+        font-size: 12px !important;
+        margin-left: 10px !important;
+        margin-top: -30px;
+     
+
+    }
+}
+@media screen and (max-width: 340px) {
+    .button {
+        font-size: 15px !important;
+        margin-left: 10px !important;
+        margin-top: -45px;
+     
+
+    }
+}
+@media screen and (max-width: 1011px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 140px !important;
+       
+     
+
+    }
+}
+@media screen and (max-width: 789px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 100px !important;
+       
+     
+
+    }
+}
+@media screen and (max-width: 584px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 70px !important;
+       
+     
+
+    }
+}
+@media screen and (max-width: 552px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 50px !important;
+       
+     
+
+    }
+}
+@media screen and (max-width: 473px) {
+    .button {
+        font-size: 20px !important;
+        margin-left: 00px !important;
+       
+     
+
+    }
+}
